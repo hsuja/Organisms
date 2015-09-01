@@ -60,20 +60,6 @@ bool Organism::hasMoved() const{
 
 }
 
-/*
-int Organism::getRow() const{
-     return row;
-}
-
-int Organism::getCol() const{
-     return col;
-}
-
-void Organism::setAge(int steps){
-     age = steps;
-}
-*/
-
 void Organism::setMoved(bool doneMoving){
      
      moved = doneMoving;
@@ -92,9 +78,3 @@ void Organism::setDied(bool death){
 
 }
 
-/*
-void Organism::setPosition(int r, int c){
-     row = r;
-     col = c;
-}
-*/
